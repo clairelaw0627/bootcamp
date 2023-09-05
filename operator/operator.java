@@ -69,5 +69,37 @@ public class operator {
     int e = 10;
     e %= 3; // e= 10/3
     System.out.println(e); //1
+
+
+    int aaa = 10;
+    int bbb =3;
+    if (aaa<9 || bbb>2) {
+      System.out.println("aaa<9 or bbb>2");
+    }
+    
+
+
+    ///char
+
+    char grade ='A';
+    if(grade == 'B' ) {
+      System.out.println("It s B");
+    } else if (grade == 'c'|| grade =='A') {
+      System.out.println("it is c or A");
+    } else {
+      System.out.println("bye");
+    }
+    // 要寫埋not equal to
+    //4 
+
+    //check if a number is even number
+    int num = 10;
+    if (num %2 == 0) {
+      System.out.println("is it an even number" + num); 
+    }
+     if (num %2 == 1) {
+      System.out.println("this is an odd number" + num);
+     }
+
   }
 }
