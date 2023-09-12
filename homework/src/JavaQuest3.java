@@ -30,14 +30,69 @@ public class JavaQuest3 {
     
     // Complete the switch statement
     switch (month) {
+      case 1:
+        MonthOfName = "January";
+        number_Of_DaysInMonth = 31;
+        break;
       case 2:
         MonthOfName = "February";
-        
+        if (year%4 == 0 && year%100 > 0) {
+          number_Of_DaysInMonth = 29;
+        } else if ( year % 400 == 0 ) {
+          number_Of_DaysInMonth = 29;
+        } else { 
+          number_Of_DaysInMonth = 28;
+        }
+        break;
+      case 3:
+        MonthOfName = "March";
+        number_Of_DaysInMonth = 31;
+        break;
+      case 4:
+        MonthOfName = "April";
+        number_Of_DaysInMonth = 30;
+        break;
+      case 5:
+        MonthOfName ="May";
+       number_Of_DaysInMonth = 31;
+       break;
+      case 6:
+        MonthOfName ="June";
+        number_Of_DaysInMonth = 30;
+        break;
+      case 7:
+        MonthOfName ="July";
+        number_Of_DaysInMonth = 31;
+        break;
+      case 8:
+        MonthOfName ="August";
+        number_Of_DaysInMonth = 31;
+        break;
+      case 9:
+        MonthOfName ="September";
+        number_Of_DaysInMonth = 30;
+        break;
+      case 10:
+        MonthOfName ="October";
+        number_Of_DaysInMonth = 31;
+        break;
+      case 11:
+        MonthOfName ="November";
+        number_Of_DaysInMonth = 30;
+        break;
+      case 12:
+        MonthOfName ="December";
+        number_Of_DaysInMonth = 31;
+        break;
 
 
         // Leap Year -> 29 days in February, otherwise 28.
         // Definition: If a year is divisible by 4, and Not divisible by 100, OR
         // divisible by 400.
+
+
+
+
 
         // Complete the other months
     }
